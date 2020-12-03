@@ -1,8 +1,11 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_app/constants.dart';
 import 'package:shop_app/models/product.dart';
 import 'package:shop_app/screens/details/components/cart_counter.dart';
 import 'package:shop_app/screens/details/components/color_and_size.dart';
+import 'package:shop_app/screens/details/components/counter_with_fav_btn.dart';
 import 'package:shop_app/screens/details/components/description.dart';
 import 'package:shop_app/screens/details/components/product_title_with_image.dart';
 
@@ -37,7 +40,7 @@ class Body extends StatelessWidget {
                     children: [
                       ColorAndSize(product: product),
                       Description(product: product),
-                      CartCounter()
+                      CounterWithFavBtn()
                     ],
                   ),
                 ),
