@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shop_app/constants.dart';
-import 'package:shop_app/screens/components/body.dart';
+import './components/body.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
